@@ -1,0 +1,17 @@
+<div class="container">
+	<div class="row">
+		<div class="well">Static message wall</div>
+	</div>
+	<div class="row">
+		<form class="form-signin"> 
+			<input type="text" name="userId" id="userId" placeholder="UserId" ng-model="vm.userId">
+			<input type="text" name="password" id="password" placeholder="Password" ng-model="vm.password">
+			<button ng-click="userLogin()">    
+		 		<span class="text">LOGIN</span>
+			</button>
+		  	<button onClick="location.href='#/usersignup'">    
+		 		<span class="text">SIGNUP</span>
+			</button>
+		</form>
+	</div>  
+</div>
